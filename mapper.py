@@ -14,5 +14,5 @@ for line in sys.stdin:
 
     # output tuples (word, 1) in tab-delimited format
     for word in words:
-            if words not in stop_words:
+            if word not in stop_words:
                 print '%s\t%s' % (word, "1")
